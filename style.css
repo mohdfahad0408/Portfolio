@@ -1,0 +1,273 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+ body{
+    background-color: #0d1117;
+ }
+
+.nav-opt{
+    text-decoration: none;
+    color: #d1d5db;
+    margin-right: 20px;
+}
+
+.logo{
+    color: #fff;
+    font-size: 4vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(22,27,34,0.6);
+    box-sizing: border-box;
+    align-items: center;
+    height: 8vh;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+
+}
+
+ol{
+    width: 50%;
+    display: flex;
+    list-style: none;
+    font-size: 2.7vh;
+
+}
+
+.nav-opt:hover{
+    color: skyblue;
+}
+
+.heropanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 10vh;
+}
+
+.heropanel h1{
+    font-size: 8vh;
+    
+}
+
+.heropanel span{
+    background:linear-gradient(to right,#38bdf8, #a78bfa);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heropanel p{
+    margin-top: 3vh;
+    color: #9ca3af;
+    font-size: 20px;
+    max-width: 700px;
+    line-height: 30px;
+}
+
+.heropanel button{
+    background-color: #0Ea5e9;
+    height: 45px;
+    width: 175px ;
+    margin-top:3vh;border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+}
+
+/*About me section*/
+
+
+
+.about-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 85vw;
+    margin-top: 13vh;
+}
+
+.frame{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 250px;
+}
+
+.intro h1{
+    margin-top: 80px;
+}
+
+.intro p{
+    color: #9ca3af;
+    margin-top: 1rem;
+}
+
+.intro{
+    margin-left: 3rem;
+}
+
+
+
+/*project*/
+.project{
+    text-align: center;
+}
+
+.myproject{
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.prj{
+    background-color: #111827;
+    border-radius: 1rem;
+    width: 350px;
+    height: 450px;
+    
+}
+
+.prj a{
+    color: #38bdf8;
+    font-size: 1.5rem;
+}
+
+.prj p{
+    color: #9ca3af;
+    margin: 16px 0;
+    padding: 0 40px;
+    height: 15vh;
+}
+
+
+
+/*technology i use*/
+#tech{
+    text-align: center;
+    margin: 250px 0;
+}
+
+.tech-img{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    background-color: #111827;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #0Ea5e9;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.app{
+    margin: 20px;
+}
+
+/*get in touch*/
+
+#contact{
+    text-align: center;
+    
+    margin-bottom: 100px;
+}
+
+#contact p{
+    color: #d1d5db;
+    margin-top: 1rem;
+}
+
+#contact a{
+    display: inline-block;
+    height: 60px;
+    width: 250px;
+    color: #38bdf8;
+    background-color: #1f2937;
+    font-size: 1.3rem;
+    border: 1px solid #38bdf8;
+    padding-top: 18px;
+    margin-top: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: all ease-in 0.5s;
+}
+
+#contact a:hover{
+    color: white;
+    background-color: #38bdf8;
+}
+
+/* footer*/
+
+footer{
+    height: 10vh;
+    box-sizing: border-box;
+}
+
+footer p{
+    color: #6b7280;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 4vh;
+}
+
+
+@media (min-width:900px) and (max-width:1050px ){
+    .mypic{
+        height: 300px;
+        width: 300px;
+    }
+
+    .about-section{
+    
+    grid-template-columns: 1fr 1fr;
+    }
+
+    .intro h1{
+    margin-top: 0px;
+    }
+    .intro{
+        margin-left: 1rem;
+    }
+
+    #tech{
+        margin-top: 500px;
+    }
+}
+
+@media  (max-width:900px ){
+    .mypic{
+        height: 300px;
+        width: 300px;
+        margin-left: 15vw;
+    }
+
+    .about-section{
+    
+    grid-template-columns: 1fr;
+    }
+
+    .intro h1{
+    margin-top: 50px;
+    }
+
+    .project{
+        margin-top: 200px;
+    }
+
+}
