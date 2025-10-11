@@ -291,5 +291,8 @@ footer p{
     .heropanel p{
     font-size: 15px;    
 }
+nav{
+    
+    justify-content: space-around;
 
 }
