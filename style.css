@@ -281,19 +281,14 @@ footer p{
 @media  (max-width:550px ){
     ol{
     width: 38%;
-    font-size: 1.7vh;
+    font-size: 15px;
     }
 
     .heropanel h1{
-    font-size: 5vh;    
+    font-size: 30px;    
     }
 
     .heropanel p{
     font-size: 15px;    
-}
-nav{
-    
-    justify-content: space-around;
-
-}
+    }
 }
