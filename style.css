@@ -31,7 +31,6 @@ nav{
     position: fixed;
     width: 100vw;
     top: 0;
-
 }
 
 ol{
@@ -39,7 +38,6 @@ ol{
     display: flex;
     list-style: none;
     font-size: 2.7vh;
-
 }
 
 .nav-opt:hover{
@@ -57,8 +55,7 @@ ol{
 }
 
 .heropanel h1{
-    font-size: 8vh;
-    
+    font-size: 8vh;    
 }
 
 .heropanel span{
@@ -276,5 +273,23 @@ footer p{
         width: 50px;
         font-size: 1.5rem;
     }
+
+    
+}
+
+
+@media  (max-width:550px ){
+    ol{
+    width: 38%;
+    font-size: 1.7vh;
+    }
+
+    .heropanel h1{
+    font-size: 5vh;    
+    }
+
+    .heropanel p{
+    font-size: 15px;    
+}
 
 }
